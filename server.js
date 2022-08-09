@@ -11,6 +11,8 @@ const io = socketio(server)
 
 const bot = 'ChatBot'
 
+const port = process.env.PORT || 3001
+
 app.use(express.static(path.join(__dirname, "public")))
 
 io.on('connection', socket =>{
@@ -57,6 +59,6 @@ io.on('connection', socket =>{
 })
 })
 
-server.listen(3001, ()=> console.log('listening on port 3001'))
+server.listen(port, ()=> console.log('listening on port 3001'))
 
 
