@@ -11,6 +11,7 @@ After clone this respository.
 
 - open the project console
 - inside, run the command line, `npm install` then, `npm start`
+- go to [http://localhost:3001/](http://localhost:3001/)
 
   The app is also deployed [https://chatroomsdemo.herokuapp.com/](https://chatroomsdemo.herokuapp.com/)
 
