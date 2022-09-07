@@ -1,4 +1,4 @@
-hatRoom
+## ChatRooms
 
 ## Introduction
 
